@@ -10,78 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0570e3b-72f6-45a7-85d9-254c1a539870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/Programs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/8b140bb3f9f8d9f1e04df1f07cb4a199/generate.stamp.rule" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.depend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Programs.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/hello.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeletons/multiply.c" beforeDir="false" afterPath="$PROJECT_DIR$/skeletons/multiply.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="467" />
+          <entry key="c" value="514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="467" />
+          <entry key="ObjectiveC" value="514" />
         </counts>
       </usages-collector>
     </session>
@@ -143,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skeletons/multiply.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="561">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -284,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550672007920</updated>
-      <workItem from="1550672009187" duration="2527000" />
+      <workItem from="1550672009187" duration="3013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2527000" />
+    <option name="totallyTimeSpent" value="3013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="986" height="1030" extended-state="0" />
@@ -339,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skeletons/multiply.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="561">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
         </state>
       </provider>
     </entry>

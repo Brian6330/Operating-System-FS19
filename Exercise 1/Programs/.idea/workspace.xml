@@ -10,78 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b374450-5112-4892-b4c3-285a90feddfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/Programs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/8b140bb3f9f8d9f1e04df1f07cb4a199/generate.stamp.rule" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.depend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Programs.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programs/hello.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeletons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../skeletons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skeletons/skeletons/multiply.c" beforeDir="false" afterPath="$PROJECT_DIR$/../skeletons/skeletons/multiply.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -160,7 +90,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1289" />

@@ -6,9 +6,10 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <ctype.h> //added this to have access to the isdigit function
 
 void invalid() {
-	printf("Usage: ./cli <arg1> <arg2>\n");
+	printf("Usage: ./cli <num0> <num1>\n");
 	exit(2);
 }
 
@@ -31,7 +32,7 @@ int main(int argc, char *argv[])
 	num1 = strtol(argv[2], &bin, 10);
 
 	// checking all invalid case
-	if (num0 > 9 || num1 > 9 || num0 < 0 || num1 < 0) {
+	if (num0 > 9 || num1 > 9 || num0 < 0 || num1 < 0 || !isdigit(num0) || !isdigit(num1)) {
 		printf("Both arguments must be integers between 0 and 9!\n");
 		exit(2);
 	}
