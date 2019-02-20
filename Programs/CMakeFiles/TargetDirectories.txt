@@ -1,0 +1,3 @@
+C:/Drive/_Betriebssysteme/Programs/CMakeFiles/Programs.dir
+C:/Drive/_Betriebssysteme/Programs/CMakeFiles/ALL_BUILD.dir
+C:/Drive/_Betriebssysteme/Programs/CMakeFiles/ZERO_CHECK.dir

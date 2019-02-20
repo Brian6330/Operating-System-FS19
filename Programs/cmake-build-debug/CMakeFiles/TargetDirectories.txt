@@ -1,0 +1,3 @@
+C:/Drive/_Betriebssysteme/Programs/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Drive/_Betriebssysteme/Programs/cmake-build-debug/CMakeFiles/Programs.dir
+C:/Drive/_Betriebssysteme/Programs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
