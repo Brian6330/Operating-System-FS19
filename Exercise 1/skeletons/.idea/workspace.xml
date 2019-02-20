@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0570e3b-72f6-45a7-85d9-254c1a539870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/Programs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/ALL_BUILD.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/VCTargetsPath.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/3.12.2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/8b140bb3f9f8d9f1e04df1f07cb4a199/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeFiles/generate.stamp.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/Programs.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/Programs.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/Programs.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programs/hello.c" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1575994706">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="467" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="467" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeletons/error.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeletons/net.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skeletons/multiply.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/skeletons/net.c" />
+        <option value="$PROJECT_DIR$/skeletons/multiply.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1233" />
+    <option name="height" value="1288" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralC/C++</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Objective-C</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>PropertiesObjective-C</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="skeletons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skeletons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skeletons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skeletons" type="462c0819:PsiDirectoryNode" />
+              <item name="skeletons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0570e3b-72f6-45a7-85d9-254c1a539870" name="Default Changelist" comment="" />
+      <created>1550672007920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550672007920</updated>
+      <workItem from="1550672009187" duration="2527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="986" height="1030" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19438446" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" weight="0.32671082" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skeletons/error.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeletons/net.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeletons/multiply.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

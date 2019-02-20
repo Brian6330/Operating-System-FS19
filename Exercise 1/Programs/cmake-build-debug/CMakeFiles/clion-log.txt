@@ -1,0 +1,4 @@
+Cannot generate into C:\Git\Operating-System-FS19\Exercise 1\Programs
+It is already used for project C:\Drive\_Betriebssysteme\Programs
+
+Please either delete it manually or select another generation directory
