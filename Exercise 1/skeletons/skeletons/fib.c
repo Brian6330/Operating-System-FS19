@@ -1,4 +1,4 @@
-/* gcc -Wall -O2 fib.c
+/* gcc -Wall -O fib.c
  * Prints the 10th Fibonacci Number which is 55
  */
 

@@ -1,0 +1,10 @@
+2.3 Substring - wieso off_t und size_t statt int?
+off_t und size_t für Grösse von File oder Objekt. 
+Beide sind unsigned da negative Grössen nicht möglich sind. Dies garantiert dass die Maximal Objekt oder File Grösse des Host Systems verwendet werden können.
+Der unsigned_int kann je nach Host grösser oder kleiner sein. 
+Weiter hat man eine semantische Bedeutung, der Benutzer weiss für was die Variable verwendet wird. 
+
+2.6 Speicherfehler
+f() gibt die Adresse der lokalen Variable b zurück, welches jedoch nach dem Schluss der Funktion aufgelöst wird (bevor der Wert gelesen wird). Somit haben wir einen Fehler. Man kann das Probleme auf mehrere Arten beheben.
+
+Die erwartete Ausgabe war das doppelte von 4 und 8, also 8 und 16

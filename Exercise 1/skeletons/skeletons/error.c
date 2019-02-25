@@ -1,14 +1,20 @@
+/* gcc -Wall -O error.c
+ * Prints the 10th Fibonacci Number which is 55
+ */
 #include <stdio.h>
 
-int *f(int a) {
+
+int f(int a) {
 	int b = 2 * a; 
-	return &b;
+	return b;
 }
 
 
 int main(void) {
-	int *p4, *p8; 
+	int p4, p8;
 	p4 = f(4); 
 	p8 = f(8); 
-	printf("p4: %i / p8: %i\n", *p4, *p8);
+	printf("p4: %i / p8: %i\n", p4, p8);
+
+    return 0;
 }
