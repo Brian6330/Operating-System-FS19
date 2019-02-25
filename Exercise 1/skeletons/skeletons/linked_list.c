@@ -1,5 +1,7 @@
-/* gcc -Wall -O2 linked_list.c */
-/* valgrind ./a.out */
+/* gcc -Wall -O2 linked_list.c
+ * runs through a linked list twice,
+ * returning the current value in the iteration and which "step" it's at
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,7 +24,7 @@ static void *xmalloc(size_t size)
 		panic("Size is 0!\n");
 	ptr = malloc(size);
 	if (!ptr)
-		panic("No mem left!\n");
+		panic("No memory left!\n");
 	return ptr;
 }
 
@@ -41,7 +43,7 @@ static struct elem *init_list(size_t len)
 	int k;
 
 	if (len < 1) {
-		panic("Length must be bigger or eqaul to 1!\n");
+		panic("Length must be bigger or equal to 1!\n");
 	}
 
 	// First element
@@ -50,7 +52,7 @@ static struct elem *init_list(size_t len)
 	head->next = NULL;
 
 	// Keep `head` as return value, but need a floating reference to previous item
-	prev = head; //TODO Switch this around out of curiosity
+	prev = head;
 
 	// Starting at entry 1, since we need to skip head
 	for (k = 1; k < len; k++) {
@@ -102,7 +104,7 @@ int main(void)
 	struct elem *head = NULL;
 	size_t len = 10;
 
-	//1. Set Head | 2. iterate through list twice | 3. empty the list
+	//1. Set Head; 2. iterate through list twice; 3. empty the list
 	head = init_list(len);
 	traverse_list(head, 2);
 	clean_list(head, len);
