@@ -8,7 +8,7 @@
 int max;
 int min;
 float avg;
-int len;
+int length;
 
 /**Basic struct used for communication between main process and his worker threads.
  */
@@ -42,7 +42,7 @@ void *minimum(void *val) {
     struct WorkerData *data = (struct WorkerData*) val;
 
     *(data->min) = data->input[0];
-    for (int k = 1; k < length; i++) {
+    for (int k = 1; k < length; k++) {
         if (data->input[k] < *(data->min)) {
             *(data->min) = data->input[k];
         }
@@ -73,8 +73,8 @@ void usage() {
 int main(int argc, char *argv[])
 {
     length = argc - 1;
-    int cliArgs[len];
-	int *array; // use this to store the command line parameters as integers
+    int cliArgs[length];
+	//int *array; // use this to store the command line parameters as integers
 	pthread_t thread0;
 	pthread_t thread1;
 	pthread_t thread2;
