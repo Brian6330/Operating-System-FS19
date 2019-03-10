@@ -1,4 +1,7 @@
-/* gcc -Wall -pthread statistics.c */
+/* gcc -Wall -pthread statistics.c
+ * Returns average, minimum and maximum of N integers entered
+ * Run as "gcc -Wall -pthread statics.c num0 num 1 num 2 numN"
+ * */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,8 +13,7 @@ int min;
 float avg;
 int length;
 
-/**Basic struct used for communication between main process and his worker threads.
- */
+//Basic struct used for communication between main process and his worker threads.
 struct WorkerData {
     // Pointer to first element of integer array for input in functions
     int* input;
@@ -52,7 +54,7 @@ void *minimum(void *val) {
 }
 
 void *maximum(void *val) {
-	// Cast void pointer back to what we know it to be, for sanity's sake.
+	// Cast void pointer back to what we know it to be
 	struct WorkerData *data = (struct WorkerData*) val;
 
 	*(data->max) = data->input[0];
@@ -64,17 +66,17 @@ void *maximum(void *val) {
 
 	return NULL;
 }
-//
+
 void usage() {
     printf("Usage: ./statistics <number> <number> [number, ...]\n");
     exit(2);
 }
-//
+
 int main(int argc, char *argv[])
 {
     length = argc - 1;
     int cliArgs[length];
-	//int *array; // use this to store the command line parameters as integers
+
 	pthread_t thread0;
 	pthread_t thread1;
 	pthread_t thread2;
@@ -85,15 +87,15 @@ int main(int argc, char *argv[])
 	}
 
 
-	//
+
     char chr;
     for (int i = 1; i < argc; i++) {
-        /* Not sure what the magic 'c' there captures. \0 as string terminator? */
+        // Not sure what the magic 'c' there captures. \0 as string terminator?
         if (sscanf(argv[i], "%d%c", &cliArgs[i - 1], &chr) != 1) {
             usage();
         };
     }
-	//
+
     struct WorkerData data;
     data.min = &min;
     data.max = &max;

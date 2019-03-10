@@ -1,5 +1,6 @@
 /* gcc -Wall -std=gnu99 zombies.c
- * TODO Insert what this does
+ * Note: Only really "useful" on *nix systems, Windows with gcc or similar won't be all that helpful here
+ * The idea is to see what zombie processes are
  */
 
 
@@ -36,8 +37,6 @@ int main(void)
 	create_zombie();
 	sleep(wait);
 
-	/* Because we don't care about the return of the program in this example
-	*  we won't reap this process. The init will do this once we'll exit.
-	*/
+	// As we don't care about the return of the program, we won't reap this process. We'l leave that to the init
 	return 0;
 }
