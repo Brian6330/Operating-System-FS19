@@ -1,4 +1,5 @@
 /* gcc -Wall -pthread ./resources.c -o resources */
+// TODO Rework
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,6 +14,30 @@ int times = 100000;
 pthread_mutex_t mutex;
 sem_t semaphore; //you may change this to sem_t *semaphore; if more convenient
 
+void semaphore_init_safe() {
+	int res = sem_init(&semaphore, 0, 1);
+	if (res == -1) {
+		perror("Error while creating semaphore");
+		exit(1);
+	}
+}
+
+void semaphore_wait_safe() {
+	int res = sem_wait(&semaphore);
+	if (res == -1) {
+		perror("Error while locking semaphore");
+		exit(1);
+	}
+}
+
+void semaphore_post_safe() {
+	int res = sem_post(&semaphore);
+	if (res == -1) {
+		perror("Error while unlocking semaphore");
+		exit(1);
+	}
+
+}
 
 /* decrease available_resources by count resources
  * return 0 if sufficient resources available,
@@ -22,8 +47,10 @@ int decrease_count(int count) {
 	if (available_resources < count) {
 		return -1;
 	} else {
+		//semaphore_wait_safe();
 		available_resources -= count;
 		printf("Locked %i resources, now available: %i\n" , count , available_resources);
+		//semaphore_post_safe();
 		return 0;
 	}
 }
@@ -34,8 +61,10 @@ int increase_count(int count) {
 	if (count + available_resources > 5) {
 		return -1;
 	} else {
+		//semaphore_wait_safe();
 		available_resources += count;
 		printf("Freed %i resources, now available: %i\n" , count , available_resources);
+		//semaphore_post_safe();
 		return 0;
 	}
 }
@@ -57,13 +86,23 @@ int main(int argc, char *argv[])
 {
 	pthread_t thread1 , thread0;
 
+	//semaphore_init_safe();
+
 	decrease_count(2);
 
 	/* TODO: Create 2 threads that call runTimes and wait for their completion
 	 * This should generate false final count of resources every now and then
 	 * when run WITHOUT mutex or semaphore. */
 
+	/*pthread_create(&thread0, NULL, runTimes, NULL);
+	pthread_create(&thread1, NULL, runTimes, NULL);
+
+	pthread_join(thread0, NULL);
+	pthread_join(thread1, NULL);*/
+
 	printf("Currently available resources (should be 3): %i\n" , available_resources);
+
+	//sem_destroy(&semaphore);
 
 	return 0;
 }
