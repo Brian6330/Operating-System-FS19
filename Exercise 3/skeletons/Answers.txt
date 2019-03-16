@@ -1,0 +1,14 @@
+It can occur that the variable 'available_resources' can during the operation 
+differ from the value what it should be which can lead to incorrect behaviour of the 
+programm.
+
+This problem, known as race conditions, occures in the lines where 'available_resources 
+is in- or decremented. The instruction 'available_resources += count' first loads the
+value of 'available_resources' into a register and the value of 'count' into another
+register. Then it adds both registers and writes the result back to 'available_resources'.
+
+Because we have two threads running in prallel, it could happen that these two threads 
+can be ended nearly simultaneously so that both load the same value for 'available_resources',
+for example 3. Then they both will increment it to 4 and write it back to the variable 'available_resources'.
+
+So we will end up with the value of '4' instead of the expected value of '5'.
