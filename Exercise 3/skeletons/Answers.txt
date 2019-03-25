@@ -1,8 +1,20 @@
-a.) Die Variable available_resources kann während dem Ausführen sich unterscheiden, von dem erwarten Wert, was zu inkorrektem Verhalten des Programms führen kann.
+# A
+Die Variable available_resources kann sich während dem Ausführen von dem erwartetem Wert unterscheiden, 
+was zu inkorrektem Verhalten des Programms führen kann.
 
-b.) Race Conditions: Bei den Linien
-		available_resources += count;
-		available_resources -= count;
-Zuerst wird available_resources in ein Register geladen und der Wert von count in ein anderes. Danach werden beide addiert, bzw. subtrahiert.
+#B
+Race Conditions:
 
-Da wir 2 (oder sogar mehr) parallele Threads haben, kann es vorkommen, dass beide simultan vorgehen, gleichzeitig den Wert available_resources laden (nehmen wir an es sei 4). Diesen dann beide inkrementieren um 1, was 5 ergibt und diesen zurückgeben in available_resources. Dann erhalten wir 5 statt den erwarteten Wert 6. Dasselbe Problem falls beide gleichzeitig dekrementieren. Falls eines dekrementiert und das andere gleichzeitig inkrementiert, ist der langsamere Thread, dessen Wert gespeichert wird.
+        available_resources += count;
+        available_resources -= count;
+        printf("...", available_resources)
+
+Zuerst wird available_resources in ein Register geladen und der Wert von count in ein anderes. 
+Danach werden beide addiert, bzw. subtrahiert.
+
+Da wir 2 (oder sogar mehr) parallele Threads haben, kann es vorkommen, dass beide gleichzeitig den 
+Wert available_resources laden (nehmen wir an es sei 4). 
+Daraufhin inkrementieren beide um 1, was 5 ergibt und diesen zurückgeben in available_resources. 
+Dann erhalten wir 5 statt des erwarteten Wert 6. Dasselbe Problem tritt auf, falls beide gleichzeitig 
+dekrementieren. Falls eines dekrementiert und das andere gleichzeitig inkrementiert, ist es der Wert des 
+langsameren Threads, welcher gespeichert wird.
