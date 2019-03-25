@@ -1,14 +1,8 @@
-It can occur that the variable 'available_resources' can during the operation 
-differ from the value what it should be which can lead to incorrect behaviour of the 
-programm.
+a.) Die Variable available_resources kann während dem Ausführen sich unterscheiden, von dem erwarten Wert, was zu inkorrektem Verhalten des Programms führen kann.
 
-This problem, known as race conditions, occures in the lines where 'available_resources 
-is in- or decremented. The instruction 'available_resources += count' first loads the
-value of 'available_resources' into a register and the value of 'count' into another
-register. Then it adds both registers and writes the result back to 'available_resources'.
+b.) Race Conditions: Bei den Linien
+		available_resources += count;
+		available_resources -= count;
+Zuerst wird available_resources in ein Register geladen und der Wert von count in ein anderes. Danach werden beide addiert, bzw. subtrahiert.
 
-Because we have two threads running in prallel, it could happen that these two threads 
-can be ended nearly simultaneously so that both load the same value for 'available_resources',
-for example 3. Then they both will increment it to 4 and write it back to the variable 'available_resources'.
-
-So we will end up with the value of '4' instead of the expected value of '5'.
+Da wir 2 (oder sogar mehr) parallele Threads haben, kann es vorkommen, dass beide simultan vorgehen, gleichzeitig den Wert available_resources laden (nehmen wir an es sei 4). Diesen dann beide inkrementieren um 1, was 5 ergibt und diesen zurückgeben in available_resources. Dann erhalten wir 5 statt den erwarteten Wert 6. Dasselbe Problem falls beide gleichzeitig dekrementieren. Falls eines dekrementiert und das andere gleichzeitig inkrementiert, ist der langsamere Thread, dessen Wert gespeichert wird.
