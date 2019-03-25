@@ -22,18 +22,18 @@ void semaphore_init_safe() {
 	}
 }
 
-void semaphore_wait_safe() {
+void semaphore_wait() {
 	int res = sem_wait(&semaphore);
 	if (res == -1) {
-		perror("Error while locking semaphore");
+		perror("Error locking semaphore");
 		exit(1);
 	}
 }
 
-void semaphore_post_safe() {
+void semaphore_continue() {
 	int res = sem_post(&semaphore);
 	if (res == -1) {
-		perror("Error while unlocking semaphore");
+		perror("Error unlocking semaphore");
 		exit(1);
 	}
 
@@ -43,28 +43,26 @@ void semaphore_post_safe() {
  * return 0 if sufficient resources available,
  * otherwise return -1 */
 int decrease_count(int count) {
-	/* TODO: Adjust to omit race condition */
 	if (available_resources < count) {
 		return -1;
 	} else {
-		//semaphore_wait_safe();
+		semaphore_wait();
 		available_resources -= count;
 		printf("Locked %i resources, now available: %i\n" , count , available_resources);
-		//semaphore_post_safe();
+		semaphore_continue();
 		return 0;
 	}
 }
 
 /* increase available resources by count */
 int increase_count(int count) {
-	/* TODO: Adjust to omit race condition */
 	if (count + available_resources > 5) {
 		return -1;
 	} else {
-		//semaphore_wait_safe();
+		semaphore_wait();
 		available_resources += count;
 		printf("Freed %i resources, now available: %i\n" , count , available_resources);
-		//semaphore_post_safe();
+		semaphore_continue();
 		return 0;
 	}
 }
@@ -78,31 +76,24 @@ void *runTimes(void *null) {
 		while (result < 0) {result = increase_count(1);}
 		i += 1;
 	}
-
 	return NULL;
 }
 
 int main(int argc, char *argv[])
 {
 	pthread_t thread1 , thread0;
-
-	//semaphore_init_safe();
-
+	semaphore_init_safe();
 	decrease_count(2);
 
-	/* TODO: Create 2 threads that call runTimes and wait for their completion
-	 * This should generate false final count of resources every now and then
-	 * when run WITHOUT mutex or semaphore. */
-
-	/*pthread_create(&thread0, NULL, runTimes, NULL);
+	pthread_create(&thread0, NULL, runTimes, NULL);
 	pthread_create(&thread1, NULL, runTimes, NULL);
 
 	pthread_join(thread0, NULL);
-	pthread_join(thread1, NULL);*/
+	pthread_join(thread1, NULL);
 
 	printf("Currently available resources (should be 3): %i\n" , available_resources);
 
-	//sem_destroy(&semaphore);
+	sem_destroy(&semaphore);
 
 	return 0;
 }
