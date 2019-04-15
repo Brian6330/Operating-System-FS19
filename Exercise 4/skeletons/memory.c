@@ -2,11 +2,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
-#include <math.h>
 
-/* TODO: Insert System Type here
- * System used: e.g. Linux MyDistro 32bit x86
+#include <math.h>
+#include <stdint.h>
+/*
+ * System used: Windows 10 64 Bit
  */
 
 #define PAGE_SIZE 4096;
@@ -15,7 +15,7 @@ int calculate_page (uint32_t address) {
 	return address / PAGE_SIZE;
 }
 
-int calculate_offset (uint32_t address , int page) {
+int calculate_offset (uint32_t address) {
 	return address % PAGE_SIZE;
 }
 
