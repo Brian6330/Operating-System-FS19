@@ -1,0 +1,28 @@
+a) 'stat file1.txt' - Danach prüft den output 'Inode: ....'
+
+	File: file1.txt
+	Size: 168       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd02h/64770d	Inode: 4063847    Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (24485/ mz16k048)   Gid: (15000/students)
+	Access: 2016-03-09 17:46:00.000000000 +0100
+	Modify: 2016-03-09 17:46:00.000000000 +0100
+	Change: 2019-05-11 17:10:35.200247348 +0200
+	Birth: -
+
+b) 'ln file1.txt file2.txt'
+Da beide Dateien auf dieselbe iNode, zeigen sie auch auf dieselben Daten, d.h. eine Modifikation in der einen Datei auch in der anderen Datei sichtbar ist und umgekehrt.
+
+c) Da weiterhin eine Referenz zu den Daten durch 'file2.txt' besteht, existiert sie weiterhin
+
+Der Systemaufruf, welcher für das Löschen der Datei verantwortlich ist, ist
+'unlinkat(AT_FDCWD, "file2.txt", 0)', welcher dann den Link auf die iNode entfernt,
+und erst wenn der Referenzzähler 0 erreicht die Daten komplett löscht.
+
+d) 'ln -s file3.txt file4.txt'
+Da file4.txt ein Symlink ist besitzt er auch seine eigene iNode.
+
+e) Da file4.txt ein Link zu file3.txt darstellt werden Modifizierungen von file4.txt auch
+auf file3.txt übernommen.
+
+Wenn file3.txt gelöscht wird, ist nun file4.txt ein Pointer auf eine nicht-existente iNode, 
+wodurch ein Access auf die Daten fehlschlägt
